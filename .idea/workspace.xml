@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82114386-9f4c-411e-91f4-6526a3bd86cc" name="Changes" comment="chore: init project">
-      <change afterPath="$PROJECT_DIR$/redux/src/store/counterSlice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux/src/store/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux/src/store/hooks.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/redux/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/redux/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redux/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/redux/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/redux/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/src/store/counterSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/redux/src/store/counterSlice.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +19,9 @@
     <persistenceIdMap>
       <entry key="_D:/reps/redux-raw" value="3I3ArqHyUZTebQlmMfmGSNP3KOh" />
     </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="26" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,18 +34,81 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "YaroslavOkrema"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;YaroslavOkrema&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/YaroslavOkrema/redux-raw.git",
-    "accountId": "01971f5a-5377-4c60-b817-a7b51a2d9a21"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/YaroslavOkrema/redux-raw.git&quot;,
+    &quot;accountId&quot;: &quot;01971f5a-5377-4c60-b817-a7b51a2d9a21&quot;
   }
-}]]></component>
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0191404272436532E-9" />
+      <entry key="MS500" value="0.015918935508846325" />
+      <entry key="S2" value="0.4110994145760376" />
+      <entry key="S5" value="0.9867130508503127" />
+      <entry key="S10" value="1.4834574750743603" />
+      <entry key="S30" value="2.5405934762159985" />
+      <entry key="S60" value="3.3860607696838407" />
+      <entry key="M2" value="4.321008359532611" />
+      <entry key="M5" value="8.003989721423189" />
+      <entry key="M10" value="14.855600793052826" />
+      <entry key="M15" value="19.635657801669296" />
+      <entry key="M30" value="26.879035041151234" />
+      <entry key="H1" value="31.83723141405115" />
+      <entry key="H2" value="34.75000820961673" />
+      <entry key="H4" value="36.33034652319245" />
+      <entry key="D1" value="37.71529639812139" />
+      <entry key="W1" value="37.959167603009355" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000000000083802" />
+      <entry key="S2" value="1.0044656369012452" />
+      <entry key="S5" value="1.1872035711175262" />
+      <entry key="S10" value="1.814460631171646" />
+      <entry key="S30" value="4.137942706135436" />
+      <entry key="S60" value="5.931784291789433" />
+      <entry key="M2" value="7.610285800495537" />
+      <entry key="M5" value="10.9824687116937" />
+      <entry key="M10" value="16.35678887846744" />
+      <entry key="M15" value="20.232292641417132" />
+      <entry key="M30" value="26.305554015892213" />
+      <entry key="H1" value="30.57913916673017" />
+      <entry key="H2" value="33.12732163397782" />
+      <entry key="H4" value="34.52046178335872" />
+      <entry key="D1" value="35.747172039654195" />
+      <entry key="W1" value="35.96372573430514" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="4.6515527248242993E-4" />
+      <entry key="MS500" value="0.21605787328471301" />
+      <entry key="S2" value="0.8532609685354308" />
+      <entry key="S5" value="1.6859927380542346" />
+      <entry key="S10" value="2.895816798409574" />
+      <entry key="S30" value="6.432906942320357" />
+      <entry key="S60" value="9.158210124647077" />
+      <entry key="M2" value="11.833908151556308" />
+      <entry key="M5" value="18.9266979766804" />
+      <entry key="M10" value="31.163852938740256" />
+      <entry key="M15" value="39.82670546848731" />
+      <entry key="M30" value="53.15708420975225" />
+      <entry key="H1" value="62.400218994880305" />
+      <entry key="H2" value="67.86854216819353" />
+      <entry key="H4" value="70.84622032834513" />
+      <entry key="D1" value="73.4616753244406" />
+      <entry key="W1" value="73.92277931846827" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -57,23 +120,31 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Node.js.index.js.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "D:/reps",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "D:\\reps\\redux-raw\\redux\\node_modules\\typescript\\lib",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/Users/Yaroslav/reps/redux-raw/redux/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.25134.101" />
       </set>
     </attachedChunks>
   </component>
@@ -88,6 +159,7 @@
       <workItem from="1786983081140" duration="2002000" />
       <workItem from="1786991529587" duration="661000" />
       <workItem from="1787051091748" duration="6113000" />
+      <workItem from="1787074341623" duration="1912000" />
     </task>
     <task id="LOCAL-00001" summary="chore: init project">
       <option name="closed" value="true" />
