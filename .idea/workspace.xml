@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82114386-9f4c-411e-91f4-6526a3bd86cc" name="Changes" comment="chore:" />
+    <list default="true" id="82114386-9f4c-411e-91f4-6526a3bd86cc" name="Changes" comment="chore: init project">
+      <change afterPath="$PROJECT_DIR$/redux/src/store/counterSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux/src/store/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/redux/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/redux/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/redux/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/redux/src/main.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,12 +87,25 @@
       <updated>1786983079837</updated>
       <workItem from="1786983081140" duration="2002000" />
       <workItem from="1786991529587" duration="661000" />
-      <workItem from="1787051091748" duration="1275000" />
+      <workItem from="1787051091748" duration="6113000" />
     </task>
+    <task id="LOCAL-00001" summary="chore: init project">
+      <option name="closed" value="true" />
+      <created>1787052481302</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1787052481302</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore: init project" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: init project" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
